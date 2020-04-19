@@ -5,10 +5,13 @@
 wrangler.toml
 wrangler
 /wrangler.toml
+/wrangler.toml
 # dependencies
 /node_modules
 /.pnp
 .pnp.js
+
+
 
 # testing
 /coverage
