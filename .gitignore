@@ -6,6 +6,7 @@ wrangler.toml
 wrangler
 /wrangler.toml
 /wrangler.toml
+wrangler.toml.example
 # dependencies
 /node_modules
 /.pnp

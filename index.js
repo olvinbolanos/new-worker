@@ -10,3 +10,5 @@ async function handleRequest(request) {
     headers: { 'content-type': 'text/plain' },
   })
 }
+
+console.log(NEW-WORKER-API);
