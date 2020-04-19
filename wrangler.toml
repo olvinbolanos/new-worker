@@ -1,7 +1,7 @@
-name = "{{workers_dev}}"
+name = "{{NEW-WORKER-API}}"
 type = "javascript"
 account_id = ""
 workers_dev = true
-route = ""
+route = "example.com/*"
 zone_id = ""
 
