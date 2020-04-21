@@ -28,7 +28,7 @@ async function handleRequest(request) {
     // if no cookie then this is a new client, decide a group and set the cookie
     let group = Math.random() < 0.5 ? 'test' : 'control' // 50/50 split
     let response = group === 'control' ? CONTROL_RESPONSE : TEST_RESPONSE
-    response.headers.append('Set-Cookie', `${NAME}=${group}; path=/`)
+    //response.headers.append('Set-Cookie', `${NAME}=${group}; path=/`)
     const getURL = await fetch(response, init)
     const results = await gatherResponse(getURL)
     return new Response(results, init)
